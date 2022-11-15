@@ -1,19 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import Card from './Card.js';
 
 function App() {
     return (
-        <div className="flex flex-row justify-evenly items-center bg-red-200 min-h-screen">
-            <div className="rounded-xl bg-blue-700">
-                <h1 className="text-3xl text-green-700 font-bold underline">
-                    Hello world!
-                </h1>
-            </div>
-            <div className="rounded-xl bg-blue-700">
-                <h1 className="text-3xl text-green-700 font-bold underline">
-                    Hello world!
-                </h1>
-            </div>
+        <div className="flex flex-row justify-evenly items-center bg-epic min-h-screen">
+            <Card />
+            <Card />
         </div>
     );
 }
