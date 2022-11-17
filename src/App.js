@@ -13,6 +13,12 @@ function App() {
                 <div className="flex flex-row justify-between">
                     <Card />
                     <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
                 </div>
                 <div className="flex flex-row justify-end">
                     <button className="bg-blue-700 hover:bg-blue-400 text-2xl text-white font-bold py-4 px-8 mx-2 border-b-4 border-blue-700 hover:border-blue-500 rounded-xl">Higher</button>
