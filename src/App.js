@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+import vs from './vs.png';
 import './App.css';
 import Card from './Card.js';
+
 
 function App() {
     return (
 
-        <div className="flex flex-col justify-around items-center min-h-screen">
-            <div className="">
-                <h1 className="lg:text-9xl md:text-8xl text-6xl text-white">Higher or Lower</h1>
+        <div className="min-h-screen">
+            <div className="absolute h-screen w-1/2 left-1/2">
+                <Card id='0' />
             </div>
-            <div className="flex flex-col justify-evenly grow w-8/12">
-                <div className="flex flex-row justify-between">
-                    <Card />
-                    <Card />
-                </div>
-                <div className="flex flex-row justify-end">
-                    <button className="bg-blue-700 hover:bg-blue-400 text-2xl text-white font-bold py-4 px-8 mx-2 border-b-4 border-blue-700 hover:border-blue-500 rounded-xl">Higher</button>
-                    <button className="bg-blue-700 hover:bg-blue-400 text-2xl text-white font-bold py-4 px-8 mx-2 border-b-4 border-blue-700 hover:border-blue-500 rounded-xl">Lower</button>
-                </div>
+            <div className="z-0 fixed outline outline-4 left-1/2 outline-orange-400 h-screen rotate-6"></div>
+            <div className="z-20 absolute left-3 right-0 top-0 bottom-52 w-32 h-32 m-auto">
+                <img src={vs} alt="vs" />
+            </div>
+            <div className="absolute h-screen w-1/2 right-1/2">
+                <Card id='1' />
             </div>
         </div>
     );
