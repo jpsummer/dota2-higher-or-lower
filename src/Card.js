@@ -2,7 +2,7 @@ export default function Card(props) {
     if (props.id === '1') {
         return (
             <div className="flex flex-col justify-center items-center h-full">
-                <img className="z-0 fixed h-screen w-1/2 object-cover blur-3xl rotate-6" src="https://api.opendota.com/apps/dota2/images/dota_react/heroes/zuus.png" alt="hero" />
+                <img className="z-0 fixed scale-125 pr-32 h-screen w-1/2 object-cover blur-3xl rotate-6" src="https://api.opendota.com/apps/dota2/images/dota_react/heroes/zuus.png" alt="hero" />
                 <div className="z-10 flex flex-col rounded-xl border border-gray-800 bg-black bg-opacity-60 shadow-2xl shadow-black px-5 py-10 w-1/2 h-[612px]">
                     <img src="https://api.opendota.com/apps/dota2/images/dota_react/heroes/zuus.png" alt="hero" />
                     <h1 className="text-4xl tracking-wider text-slate-50 text-center font-bold pt-5">
@@ -17,7 +17,7 @@ export default function Card(props) {
     } else {
         return (
             <div className="flex flex-col justify-center items-center h-full">
-                <img className="z-0 fixed h-screen w-1/2 object-cover blur-3xl rotate-6" src="https://api.opendota.com/apps/dota2/images/dota_react/heroes/dark_willow.png" alt="hero" />
+                <img className="z-0 fixed scale-125 pl-32 h-screen w-1/2 object-cover blur-3xl rotate-6" src="https://api.opendota.com/apps/dota2/images/dota_react/heroes/dark_willow.png" alt="hero" />
                 <div className="z-10 flex flex-col rounded-xl border border-gray-800 bg-black bg-opacity-60 shadow-2xl shadow-black px-5 py-10 w-1/2 h-[612px]">
                     <img src="https://api.opendota.com/apps/dota2/images/dota_react/heroes/dark_willow.png" alt="hero" />
                     <h1 className="text-4xl tracking-wider text-slate-50 text-center font-bold pt-5">
