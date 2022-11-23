@@ -10,11 +10,11 @@ function App() {
             {/* Cards */}
             <div className="absolute top-[20%] bottom-auto left-0 right-0 my-auto flex flex-row">
                 {/* Left Card */}
-                <div className="w-1/2 right-1/2">
+                <div className="w-1/2">
                     <Card id='1' />
                 </div>
                 {/* Right Card */}
-                <div className="w-1/2 left-1/2">
+                <div className="w-1/2">
                     <Card id='0' />
                 </div>
             </div>
