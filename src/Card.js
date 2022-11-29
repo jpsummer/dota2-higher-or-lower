@@ -1,5 +1,6 @@
 export default function Card(props) {
     // TODO Dynamically Change Cards with API information
+    // Implement Node.js server for API and database for common data
     if (props.id === '1') {
         return (
             <div className="flex flex-col justify-center items-center h-full">
