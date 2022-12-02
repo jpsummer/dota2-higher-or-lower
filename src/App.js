@@ -6,7 +6,6 @@ import Card from './Card.js';
 function App() {
     return (
         <div className="min-h-screen">
-            {/* Cards */}
             <div className="absolute top-[20%] bottom-auto left-0 right-0 my-auto flex flex-row">
                 {/* Left Card */}
                 <div className="w-1/2">
