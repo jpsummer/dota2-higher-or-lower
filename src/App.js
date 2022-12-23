@@ -1,7 +1,6 @@
 import vs from './vs.png';
 import './App.css';
-import Dota2API from './Dota2API.js';
-
+import Dota2API from './Dota2API';
 
 function App() {
     return (
@@ -9,11 +8,11 @@ function App() {
             <div className="absolute top-[20%] bottom-auto left-0 right-0 my-auto flex flex-row">
                 {/* Left Card */}
                 <div className="w-1/2">
-                    <Dota2API heroId='22' />
+                    <Dota2API />
                 </div>
                 {/* Right Card */}
                 <div className="w-1/2">
-                    <Dota2API heroId='119' />
+                    <Dota2API />
                 </div>
             </div>
             {/* Centre Separator */}
