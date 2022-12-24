@@ -1,18 +1,19 @@
 import vs from './vs.png';
 import './App.css';
-import Dota2API from './Dota2API';
+import Dota2Card from './Dota2Card.js';
 
 function App() {
+    console.log("In App")
     return (
         <div className="min-h-screen">
             <div className="absolute top-[20%] bottom-auto left-0 right-0 my-auto flex flex-row">
                 {/* Left Card */}
                 <div className="w-1/2">
-                    <Dota2API />
+                    <Dota2Card />
                 </div>
                 {/* Right Card */}
                 <div className="w-1/2">
-                    <Dota2API />
+                    <Dota2Card guess='true' />
                 </div>
             </div>
             {/* Centre Separator */}
