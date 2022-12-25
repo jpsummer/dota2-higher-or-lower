@@ -17,7 +17,7 @@ function App() {
                 </div>
             </div>
             {/* Centre Separator */}
-            <div className="z-10 fixed outline-double outline-4 left-1/2 outline-orange-400 h-screen rotate-6"></div>
+            <div className="z-10 fixed outline outline-4 left-1/2 outline-orange-400 h-screen rotate-6"></div>
             {/* VS Logo */}
             <div className="z-20 absolute left-0 right-2 top-0 bottom-0 w-32 h-32 m-auto">
                 <img src={vs} alt="versus logo" />
